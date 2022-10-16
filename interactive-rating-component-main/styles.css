@@ -1,0 +1,114 @@
+body {
+  background-color: #121418;
+  font-family: overpass, sans-serif;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+}
+
+h4 {
+  color: hsl(25, 97%, 53%);
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 1rem;
+  line-height: 1.75em;
+}
+
+.box {
+  background: radial-gradient(at top, hsl(213, 19%, 18%), #171d27);
+  border-radius: 8%;
+  width: 350px;
+  padding: 30px;
+  margin: 10rem auto;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+/* RATING PAGE */
+.star {
+  background-color: hsl(213, 19%, 18%);
+  padding: 18px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+.rating {
+  display: inline-block;
+  background-color: hsl(213, 19%, 18%);
+  width: 50px;
+  padding: 15px 15px;
+  margin: 5px 8px 25px;
+  font-size: 1rem;
+  border-radius: 100%;
+  color: hsl(217, 12%, 63%);
+  border: 0;
+  text-align: center;
+}
+
+.rating:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.rating:active {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.active-btn {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.submit {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  font-size: 1.2rem;
+  border: 0;
+  border-radius: 100px;
+  padding: 10px 140px;
+}
+
+.submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+/* THANK YOU PAGE */
+.receipt {
+  margin: 15px 94px;
+}
+
+.rating-selected {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 100px;
+  color: hsl(25, 97%, 53%);
+  padding: 10px 0px;
+  text-align: center;
+  width: 225px;
+  margin: 10px 62.5px 35px;
+}
+
+.thanks {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.appreciation-note {
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
