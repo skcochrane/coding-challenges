@@ -19,54 +19,76 @@
   </head>
 
   <body>
-    <div class="notification-box">
+    <div class="notification-window">
       <!-- HEADER -->
-      <div>
+      <div class="header">
         <h1>Notifications</h1>
         <h2 class="notification-number">3</h2>
         <button class="mark-read">Mark all as read</button>
       </div>
 
       <!-- MARK -->
-      <div>
+      <div class="notification unread">
         <p>
+          <img
+            src="assets/images/avatar-mark-webber.webp"
+            alt="Mark"
+            class="avatar"
+          />
+
           <span class="name"> Mark Webber</span>
-          <span class="notification-type"
-            >reacted to your recent post
-            <span class="post">My first tournament today!</span></span
-          >
+          reacted to your recent post
+          <span class="post">My first tournament today!</span
+          ><span class="dot"> &#8226;</span>
         </p>
         <p class="time">1m ago</p>
       </div>
 
       <!-- ANGELA -->
-      <div>
+      <div class="notification unread">
         <p>
+          <img
+            src="assets/images/avatar-angela-gray.webp"
+            alt="Angela"
+            class="avatar"
+          />
           <span class="name">Angela Gray</span>
-          <span class="notification-type">followed you</span>
+          followed you
+          <span class="dot"> &#8226;</span>
         </p>
         <p class="time">5m ago</p>
       </div>
 
       <!-- JACOB -->
-      <div>
+      <div class="notification unread">
         <p>
+          <img
+            src="assets/images/avatar-jacob-thompson.webp"
+            alt="Jacob"
+            class="avatar"
+          />
           <span class="name">Jacob Thompson</span>
-          <span class="notification-type">has joined your group</span>
+          has joined your group
           <span class="group">Chess Club</span>
+          <span class="dot"> &#8226;</span>
         </p>
         <p class="time">1 day ago</p>
       </div>
 
       <!-- RIZKY -->
-      <div>
+      <div class="notification">
         <p>
-          <span class="name">Rizky Hasanuddin </span
-          ><span class="notification-type">sent you a private message</span>
+          <img
+            src="assets/images/avatar-rizky-hasanuddin.webp"
+            alt="Rizky"
+            class="avatar"
+          />
+          <span class="name">Rizky Hasanuddin </span>sent you a private message
+          <span class="dot hidden"> &#8226;</span>
         </p>
         <p class="time">5 days ago</p>
-        <div>
-          <p class="message">
+        <div class="message">
+          <p>
             Hello, thanks for setting up the Chess Club. I've been a member for
             a few weeks now and I'm already having lots of fun and improving my
             game.
@@ -75,32 +97,51 @@
       </div>
 
       <!-- KIMBERLY -->
-      <div>
+      <div class="notification">
         <p>
+          <img
+            src="assets/images/avatar-kimberly-smith.webp"
+            alt="Kimberly"
+            class="avatar"
+          />
           <span class="name">Kimberly Smith </span
-          ><span class="notification-type">commented on your picture</span>
+          ><span
+            >commented on your picture
+            <span class="dot hidden"> &#8226;</span></span
+          >
         </p>
         <p class="time">1 week ago</p>
       </div>
 
       <!-- NATHAN -->
-      <div>
+      <div class="notification">
         <p>
+          <img
+            src="assets/images/avatar-nathan-peterson.webp"
+            alt="Nathan"
+            class="avatar"
+          />
           <span class="name">Nathan Peterson</span>
-          <span class="notification-type">reacted to your recent post</span>
+          reacted to your recent post
           <span class="post"
             >5 end-game strategies to increase your win rate
           </span>
+          <span class="dot hidden"> &#8226;</span>
         </p>
         <p class="time">2 weeks ago</p>
       </div>
 
       <!-- ANNA -->
-      <div>
+      <div class="notification">
         <p>
+          <img
+            src="assets/images/avatar-anna-kim.webp"
+            alt="Anna"
+            class="avatar"
+          />
           <span class="name">Anna Kim</span>
-          <span class="notification-type">left the group </span
-          ><span class="group">Chess Club</span>
+          left the group <span class="group">Chess Club</span>
+          <span class="dot hidden"> &#8226;</span>
         </p>
         <p class="time">2 weeks ago</p>
       </div>
